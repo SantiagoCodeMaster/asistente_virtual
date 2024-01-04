@@ -54,12 +54,13 @@ def english_voice():
  
     
 
-sites = dict()
-
-files = dict()
-
-programs = dict()
-
+sites = {"google" : "https://www.google.com/?hl=es",
+         "youtube" : "https://www.youtube.com/",
+         "colab"   : "https://colab.research.google.com/#scrollTo=wApJGNfBGvPG",
+         "gmail"  : "https://mail.google.com/mail/u/0/?hl=es#inbox",
+         "campus virtual" : "https://campusvirtual.ugc.edu.co/virtual/login/index.php",
+         "whatsapp" : "https://web.whatsapp.com/"
+         }
 
 #creamos variables de nombres y las demas para inciar la paqueteria y la funcion de reconocer voz
 name = "mia"
@@ -260,6 +261,7 @@ botton_listen.pack(pady=10)
 
 botton_speak = Button(main_window,text="Hablar", fg='black',bg='#f5af19',font=("Arial",15,"bold"),width= 10, height= 2 ,command= read_and_talk)
 botton_speak.place(x=650,y=380, width=164,height=50)
+
 
 
 main_window.mainloop()
