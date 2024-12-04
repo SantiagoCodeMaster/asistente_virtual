@@ -38,7 +38,7 @@ Texto_info.place(x=0,y=320,height=280,width=300)
 
 
 
-Mia_photo = ImageTk.PhotoImage(Image.open("asistente_virtual/foto robot.png"))
+Mia_photo = ImageTk.PhotoImage(Image.open("inteligencia artificial/asistente_virtual/foto robot.png"))
 window_photo = Label(main_window,image=Mia_photo)
 window_photo.pack(pady=5)
 
